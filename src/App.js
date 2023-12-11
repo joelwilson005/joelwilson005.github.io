@@ -1,11 +1,13 @@
-import Hero from "./components/Hero";
-import About from "./components/About";
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
 const App = () => {
   return (
     <>
-      <Hero />
-      <About />
+      <Router>
+        <Routes>
+          <Route path="/" Component={HomePage} />
+        </Routes>
+      </Router>
     </>
   );
 };

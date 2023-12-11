@@ -8,8 +8,9 @@ module.exports = {
       primary: "#126e60",
       secondary: "#136F63",
       accent: "#7ac94f",
-      section1: "#284b63"
-
+      section1: "#284b63",
+      section2: "#6e0a03",
+      section3: "#289581",
     },
 
     extend: {
